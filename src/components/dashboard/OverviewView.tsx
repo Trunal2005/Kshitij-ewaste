@@ -85,11 +85,11 @@ export function OverviewView({
               Third Year B.Tech &bull; Computer Engineering
             </span>
             <span className="rounded-md bg-secondary px-2 py-0.5 font-mono text-xs text-muted-foreground border border-border">
-              {settings?.roll_no ? `Roll: ${settings.roll_no}` : 'Roll: 24102C0026'}
+              {settings?.roll_no ? `Roll: ${settings.roll_no}` : 'Roll: 24102C0012'}
             </span>
           </div>
           <h1 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl">
-            {settings?.student_name || 'Trunal Patil'} &bull; EWEM Workspace
+            {settings?.student_name || 'Kshitij Kadam'} &bull; EWEM Workspace
           </h1>
           <p className="max-w-2xl text-xs sm:text-sm text-muted-foreground leading-relaxed">
             Academic Assignment Portfolio for <strong className="text-foreground">E-Waste Management (EWEM)</strong>, Department of Computer Engineering at <strong className="text-foreground">Vidyalankar Institute of Technology, Mumbai</strong>.
@@ -218,7 +218,7 @@ export function OverviewView({
                   All 14 Sections Have Files Added!
                 </h2>
                 <p className="text-xs text-muted-foreground leading-relaxed">
-                  Excellent work, Trunal! All 14 assignment deliverables have been uploaded and linked into your portfolio.
+                  Excellent work, Kshitij! All 14 assignment deliverables have been uploaded and linked into your portfolio.
                 </p>
               </div>
             )}

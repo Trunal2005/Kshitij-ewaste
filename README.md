@@ -1,12 +1,12 @@
 # EWEM Workspace — E-Waste Management Academic Portfolio
 
-A comprehensive, production-grade academic assignment dashboard and portfolio workspace built for **Trunal Patil**, Third Year B.Tech Computer Engineering student at **Vidyalankar Institute of Technology, Mumbai**.
+A comprehensive, production-grade academic assignment dashboard and portfolio workspace built for **Kshitij Kadam**, Third Year B.Tech Computer Engineering student at **Vidyalankar Institute of Technology, Mumbai**.
 
 ---
 
 ## 1. Quick Overview
 
-- **Student:** Trunal Patil (Roll No: `24102C0026`)
+- **Student:** Kshitij Kadam (Roll No: `24102C0012`)
 - **Institution:** Vidyalankar Institute of Technology, Mumbai
 - **Course:** E-Waste Management (EWEM) — Third Year B.Tech Computer Engineering
 - **Curriculum Scope:** 14 university assignment modules covering toxic chemicals analysis, elemental recovery flows, carbon footprinting, state e-waste trackers, patent modifications, and IEEE research paper submissions.
@@ -90,7 +90,7 @@ The application supports both Vercel Serverless Functions and container platform
 
 ### Option A: Vercel Functions + Vercel Blob (Active Live Deployment)
 Deploys frontend statically on Vercel CDN and backend API on Vercel Serverless Functions (`api/index.ts`) with persistent cloud file storage via Vercel Blob:
-1. Connect GitHub repository `Trunal2005/Ewaste-Dashboard` on [Vercel](https://vercel.com).
+1. Connect GitHub repository `Trunal2005/Kshitij-ewaste` on [Vercel](https://vercel.com).
 2. Attach **Vercel Blob Storage** in 1 click:
    - Go to Project -> **Storage** tab -> Click **Create** -> Select **Blob** -> Click **Connect to Project**.
    - Vercel automatically creates and provisions `BLOB_READ_WRITE_TOKEN`.
@@ -104,7 +104,7 @@ Deploys frontend statically on Vercel CDN and backend API on Vercel Serverless F
 
 ### Option B: Railway (Persistent Container Volume)
 Railway natively supports attaching persistent volumes to containers so files and SQLite survive rebuilds:
-1. Connect your GitHub repository `Trunal2005/Ewaste-Dashboard` on [Railway](https://railway.app).
+1. Connect your GitHub repository `Trunal2005/Kshitij-ewaste` on [Railway](https://railway.app).
 2. Add a **Persistent Volume** mounted at `/app/data` and `/app/uploads`.
 3. Set Environment Variables:
    - `PORT=3001`
@@ -115,7 +115,7 @@ Railway natively supports attaching persistent volumes to containers so files an
 4. Deploy the service.
 
 ### Option C: Render Web Service
-1. Connect `Trunal2005/Ewaste-Dashboard` on [Render](https://render.com) as a **Web Service**.
+1. Connect `Trunal2005/Kshitij-ewaste` on [Render](https://render.com) as a **Web Service**.
 2. Mount Render Disk at `/var/data`, set `DB_PATH=/var/data/ewaste.sqlite` and `UPLOADS_DIR=/var/data/uploads`.
 3. Set `NODE_ENV=production` and `ADMIN_KEY=your_secure_passcode`.
 

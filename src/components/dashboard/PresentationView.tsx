@@ -69,11 +69,11 @@ export function PresentationView({
                 Presentation & Evaluation Mode
               </span>
               <span className="rounded bg-secondary px-2 py-0.2 font-mono text-[10px] text-muted-foreground border border-border">
-                {settings?.roll_no ? `Roll: ${settings.roll_no}` : 'Roll: 24102C0026'}
+                {settings?.roll_no ? `Roll: ${settings.roll_no}` : 'Roll: 24102C0012'}
               </span>
             </div>
             <h1 className="text-lg font-bold text-foreground">
-              {settings?.student_name || 'Trunal Patil'} &mdash; E-Waste Management (EWEM) Portfolio
+              {settings?.student_name || 'Kshitij Kadam'} &mdash; E-Waste Management (EWEM) Portfolio
             </h1>
             <p className="font-mono text-xs text-muted-foreground">
               {settings?.college || 'Vidyalankar Institute of Technology, Mumbai'} &bull; {settings?.program || 'Third Year B.Tech — Computer Engineering'}
@@ -225,7 +225,7 @@ export function PresentationView({
                     No files have been added to this section yet.
                   </p>
                   <p className="text-[11px] text-muted-foreground/80 mt-1">
-                    Trunal can upload deliverables for Section {current.section_number} from the Overview or Assignment view.
+                    Kshitij can upload deliverables for Section {current.section_number} from the Overview or Assignment view.
                   </p>
                 </div>
               ) : (

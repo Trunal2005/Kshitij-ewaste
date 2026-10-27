@@ -93,7 +93,7 @@ export function TopNavbar({
             </h1>
           </div>
           <p className="hidden lg:block font-mono text-[11px] text-muted-foreground truncate">
-            {settings?.student_name || 'Trunal Patil'} &bull; {settings?.college || 'Vidyalankar Institute of Technology, Mumbai'}
+            {settings?.student_name || 'Kshitij Kadam'} &bull; {settings?.college || 'Vidyalankar Institute of Technology, Mumbai'}
           </p>
         </div>
       </div>

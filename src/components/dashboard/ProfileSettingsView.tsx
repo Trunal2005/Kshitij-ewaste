@@ -25,8 +25,8 @@ interface ProfileSettingsViewProps {
 
 export function ProfileSettingsView({ onSettingsSaved }: ProfileSettingsViewProps) {
   const [settings, setSettings] = useState<StudentSettings>({
-    student_name: 'Trunal Patil',
-    roll_no: '24102C0026',
+    student_name: 'Kshitij Kadam',
+    roll_no: '24102C0012',
     subject: 'E-Waste Management (EWEM)',
     college: 'Vidyalankar Institute of Technology, Mumbai',
     program: 'Third Year B.Tech — Computer Engineering',
@@ -46,8 +46,8 @@ export function ProfileSettingsView({ onSettingsSaved }: ProfileSettingsViewProp
       try {
         const data = await fetchSettings()
         setSettings({
-          student_name: data.student_name || 'Trunal Patil',
-          roll_no: data.roll_no || '24102C0026',
+          student_name: data.student_name || 'Kshitij Kadam',
+          roll_no: data.roll_no || '24102C0012',
           subject: data.subject || 'E-Waste Management (EWEM)',
           college: data.college || 'Vidyalankar Institute of Technology, Mumbai',
           program: data.program || 'Third Year B.Tech — Computer Engineering',
@@ -165,7 +165,7 @@ export function ProfileSettingsView({ onSettingsSaved }: ProfileSettingsViewProp
                   type="text"
                   value={settings.roll_no}
                   onChange={(e) => setSettings({ ...settings, roll_no: e.target.value })}
-                  placeholder="e.g. 24102C0026"
+                  placeholder="e.g. 24102C0012"
                   className="w-full rounded-lg border border-border bg-secondary px-3 py-2 text-sm text-foreground focus:border-primary focus:outline-none font-mono"
                 />
               </div>

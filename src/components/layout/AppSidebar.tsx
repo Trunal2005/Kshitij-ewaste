@@ -162,7 +162,7 @@ export function AppSidebar({
                       EWEM Workspace
                     </h2>
                     <p className="font-mono text-xs text-muted-foreground">
-                      Trunal Patil
+                      Kshitij Kadam
                     </p>
                   </div>
                 </div>

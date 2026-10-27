@@ -76771,8 +76771,8 @@ var HttpTransaction = class extends HranaTransaction {
 
 // server/db.ts
 var INITIAL_SETTINGS = [
-  ["student_name", "Trunal Patil"],
-  ["roll_no", "24102C0026"],
+  ["student_name", "Kshitij Kadam"],
+  ["roll_no", "24102C0012"],
   ["subject", "E-Waste Management (EWEM)"],
   ["college", "Vidyalankar Institute of Technology, Mumbai"],
   ["program", "Third Year B.Tech \u2014 Computer Engineering"],
@@ -77073,7 +77073,7 @@ var TursoDatabaseAdapter = class {
           args: [sec.id, sec.section_number, sec.order_index, sec.title, sec.category, sec.description, sec.expected_files, sec.state, now, now]
         });
       }
-      await this.logActivity("SYSTEM_INIT", "EWEM Workspace initialized with 14 assignment sections for Trunal Patil", "portfolio");
+      await this.logActivity("SYSTEM_INIT", "EWEM Workspace initialized with 14 assignment sections for Kshitij Kadam", "portfolio");
     }
   }
   async queryAll(sql, params = []) {
@@ -77177,7 +77177,7 @@ var SQLiteLocalAdapter = class {
           [sec.id, sec.section_number, sec.order_index, sec.title, sec.category, sec.description, sec.expected_files, sec.state, now, now]
         );
       }
-      this._logActivitySync("SYSTEM_INIT", "EWEM Workspace initialized with 14 assignment sections for Trunal Patil", "portfolio");
+      this._logActivitySync("SYSTEM_INIT", "EWEM Workspace initialized with 14 assignment sections for Kshitij Kadam", "portfolio");
     }
   }
   _queryAllSync(sql, params = []) {
